@@ -271,12 +271,12 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change EC0 to EC</string>
+					<string>change H_EC to EC</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					RUMwXw==
+					SF9FQw==
 					</data>
 					<key>Replace</key>
 					<data>
@@ -285,12 +285,6 @@
 				</dict>
 			</array>
 		</dict>
-		<key>DisabledAML</key>
-		<array>
-			<string>SSDT.aml</string>
-			<string>SSDT-XCPM.aml</string>
-			<string>SSDT-PluginType1.aml</string>
-		</array>
 		<key>DropTables</key>
 		<array>
 			<dict>
@@ -322,13 +316,29 @@
 			<key>NoOemTableId</key>
 			<false/>
 		</dict>
+		<key>SortedOrder</key>
+		<array>
+			<string>SSDT-BATT.aml</string>
+			<string>SSDT-FN.aml</string>
+			<string>SSDT-XOSI.aml</string>
+			<string>SSDT-UIAC.aml</string>
+			<string>SSDT-GPRW.aml</string>
+			<string>SSDT-Disable-DGPU.aml</string>
+			<string>SSDT-PNLF.aml</string>
+			<string>SSDT-XHC.aml</string>
+			<string>SSDT-ALC235.aml</string>
+			<string>ssdt.aml</string>
+			<string>SSDT-BATT-STATUS.aml</string>
+			<string>SSDT-MUTEX.aml</string>
+			<string>SSDT-LID.aml</string>
+		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>nv_disable=1 dart=0 -cdfon -igfxnohdmi brcmfx-driver=1 brcmfx-country=#a</string>
+		<string>nv_disable=1 dart=0 -cdfon -igfxnohdmi brcmfx-country=#a brcmfx-driver=1</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -441,13 +451,13 @@
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
-			<false/>
+			<true/>
 			<key>FixOwnership</key>
-			<false/>
+			<true/>
 			<key>HighCurrent</key>
-			<false/>
+			<true/>
 			<key>Inject</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>UseIntelHDMI</key>
 		<false/>

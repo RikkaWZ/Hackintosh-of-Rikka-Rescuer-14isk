@@ -510,7 +510,7 @@
 			<key>CFBundleIdentifier</key>
 			<string>org.emlydinesh.driver.ApplePS2SmartTouchPad</string>
 			<key>Debug Level</key>
-			<integer>0</integer>
+			<integer>16</integer>
 			<key>FocalTechNameMatch</key>
 			<array>
 				<string>FLT0101</string>
@@ -866,7 +866,7 @@
 				<key>Buttons</key>
 				<dict>
 					<key>2FingersClickAction</key>
-					<integer>33</integer>
+					<integer>2</integer>
 					<key>ClickpadVirtualButtons</key>
 					<true/>
 					<key>ClickpadVirtualButtonsArea</key>
@@ -915,13 +915,13 @@
 				<key>FingersPress</key>
 				<dict>
 					<key>2FingersPressAction</key>
-					<integer>33</integer>
+					<integer>18</integer>
 					<key>3FingersPressAction</key>
-					<integer>14</integer>
+					<integer>19</integer>
 					<key>4FingersPressAction</key>
-					<integer>13</integer>
+					<integer>20</integer>
 					<key>5FingersPressAction</key>
-					<integer>5</integer>
+					<integer>13</integer>
 					<key>FingersPressTimeOut</key>
 					<integer>700</integer>
 				</dict>
@@ -942,7 +942,7 @@
 					<key>TimeOutEnablesTPadAfterAccInput</key>
 					<integer>1000</integer>
 					<key>TriggerAccInputForKeyPressCount</key>
-					<integer>1</integer>
+					<integer>2</integer>
 				</dict>
 				<key>Mouse</key>
 				<dict>
@@ -1302,7 +1302,7 @@
 					<key>3FingerSwipeRightAction</key>
 					<integer>12</integer>
 					<key>3FingerSwipeUpAction</key>
-					<integer>34</integer>
+					<integer>3</integer>
 					<key>3FingerSwipes</key>
 					<true/>
 					<key>4FingerSwipeDownAction</key>
@@ -1316,23 +1316,23 @@
 					<key>4FingerSwipes</key>
 					<true/>
 					<key>EdgeSwipeBottom</key>
-					<integer>24</integer>
+					<integer>0</integer>
 					<key>EdgeSwipeDeltaX</key>
 					<integer>50</integer>
 					<key>EdgeSwipeDeltaY</key>
 					<integer>60</integer>
 					<key>EdgeSwipeFingers</key>
-					<integer>0</integer>
+					<integer>2</integer>
 					<key>EdgeSwipeLeft</key>
-					<integer>24</integer>
+					<integer>6</integer>
 					<key>EdgeSwipeRight</key>
-					<integer>25</integer>
+					<integer>14</integer>
 					<key>EdgeSwipeSenseHArea</key>
 					<integer>7</integer>
 					<key>EdgeSwipeSenseVArea</key>
 					<integer>5</integer>
 					<key>EdgeSwipeTop</key>
-					<integer>23</integer>
+					<integer>10</integer>
 					<key>EdgeSwipes</key>
 					<true/>
 					<key>EdgeSwipes2Ways</key>
@@ -1370,11 +1370,11 @@
 					<key>1FingerTapAction</key>
 					<integer>35</integer>
 					<key>2FingersTapAction</key>
-					<integer>33</integer>
+					<integer>34</integer>
 					<key>3FingersTapAction</key>
-					<integer>14</integer>
+					<integer>33</integer>
 					<key>4FingersTapAction</key>
-					<integer>13</integer>
+					<integer>4</integer>
 					<key>5FingersTapAction</key>
 					<integer>5</integer>
 					<key>CornerTapAreaHeight</key>
